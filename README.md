@@ -47,3 +47,8 @@
 ## 📄 라이선스
 
 이 플러그인은 [MIT 라이선스](LICENSE)를 따릅니다.
+
+---
+<a href="https://www.buymeacoffee.com/beautyKim" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+</a>
