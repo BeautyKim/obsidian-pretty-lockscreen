@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-pretty-lockscreen",
+	"name": "Pretty Lockscreen",
+	"version": "1.0.0",
+	"main": "main.js",
+	"minAppVersion": "0.15.0",
+	"description": "비밀번호로 옵시디언을 잠그는 기능을 제공합니다.",
+	"author": "beautyKim",
+	"isDesktopOnly": false
+}
