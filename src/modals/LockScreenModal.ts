@@ -16,16 +16,15 @@ export class LockScreenModal extends Modal {
 
   onOpen() {
     this.closeable = false;
+	  this.modalEl.addClass('pretty-lockscreen-modal');
 
-    const { contentEl } = this;
+	  const { contentEl } = this;
     contentEl.empty();
 
-    // [수정] contentEl에 lockscreen-container 클래스 추가
     contentEl.addClass('lockscreen-container');
 
     const { backgroundImageUrl, backgroundOpacity } = this.plugin.settings;
 
-    // [수정] 배경 이미지를 contentEl에 적용
     if (backgroundImageUrl) {
       const imagePath = this.app.vault.adapter.getResourcePath(backgroundImageUrl);
       contentEl.style.backgroundImage = `url("${imagePath}")`;
@@ -44,7 +43,7 @@ export class LockScreenModal extends Modal {
 
     const form = overlay.createDiv({ cls: 'lockscreen-form' });
 
-    this.passwordInputEl = form.createEl('input', { type: 'password', placeholder: '비밀번호 입력' });
+    this.passwordInputEl = form.createEl('input', { type: 'password', placeholder: 'password' });
     this.passwordInputEl.addEventListener('keydown', (e) => { if (e.key === 'Enter') { this.checkPassword(); } });
 
     this.errorEl = form.createDiv({ cls: 'lockscreen-error' });
