@@ -24,8 +24,8 @@
 ### 수동 설치
 
 1.  이 저장소의 [Releases](https://github.com/BeautyKim/obsidian-pretty-lockscreen) 페이지에서 최신 버전의 `main.js`, `styles.css`, `manifest.json` 파일을 다운로드합니다.
-2.  Obsidian 볼트의 `.obsidian/plugins/` 디렉토리 안에 `obsidian-pretty-lockscreen`이라는 새 폴더를 만듭니다.
-3.  다운로드한 파일들을 `obsidian-pretty-lockscreen` 폴더 안에 붙여넣습니다.
+2.  Obsidian 볼트의 `.obsidian/plugins/` 디렉토리 안에 `pretty-lockscreen`이라는 새 폴더를 만듭니다.
+3.  다운로드한 파일들을 `pretty-lockscreen` 폴더 안에 붙여넣습니다.
 4.  Obsidian 설정에서 플러그인을 활성화합니다.
 
 ---

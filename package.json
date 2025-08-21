@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-pretty-lockscreen",
+	"name": "pretty-lockscreen",
 	"version": "1.0.0",
 	"description": "Obsidian의 잠금화면 기능을 제공하는 플러그인",
 	"main": "main.js",
