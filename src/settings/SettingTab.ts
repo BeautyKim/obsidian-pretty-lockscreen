@@ -55,7 +55,7 @@ export class SampleSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName('배경 이미지 URL')
-      .setDesc('잠금 화면 배경으로 사용할 이미지 URL 또는 Obsidian 내의 파일 경로를 입력하세요 (예: attachments/image.jpg)')
+      .setDesc('잠금 화면 배경으로 사용할 이미지 URL 또는 파일 경로를 입력하세요 (예: attachments/image.jpg)')
       .addText(text => text
         .setPlaceholder('https://example.com/image.jpg')
         .setValue(this.plugin.settings.backgroundImageUrl || '')

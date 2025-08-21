@@ -1,6 +1,6 @@
-# Pretty Lockscreen for Obsidian
+# Pretty Lockscreen
 
-**Pretty Lockscreen**은 당신의 Obsidian 볼트를 아름답고 안전하게 보호하는 간단한 잠금 화면 플러그인입니다. 일정 시간 자리를 비우면 자동으로 화면이 잠기며, 사용자 정의 배경화면과 불투명도 설정으로 나만의 잠금 화면을 꾸밀 수 있습니다.
+**Pretty Lockscreen**은 간단한 잠금 화면 플러그인입니다. 일정 시간 자리를 비우면 자동으로 화면이 잠기며, 사용자 정의 배경화면과 불투명도 설정으로 나만의 잠금 화면을 꾸밀 수 있습니다.
 
 ![Pretty Lockscreen Demo GIF](prettyLockscreen.gif)
 
@@ -17,16 +17,16 @@
 ---
 ## ⚙️ 설치 방법
 
-1.  Obsidian의 `설정` > `커뮤니티 플러그인`에서 `안전 모드`를 비활성화하세요.
+1.  `설정` > `커뮤니티 플러그인`에서 `안전 모드`를 비활성화하세요.
 2.  `커뮤_니티 플러그인 찾아보기`를 클릭하고 `Pretty Lockscreen`을 검색하여 설치하세요. (아직 출시되지 않았다면 수동 설치)
 3.  `Pretty Lockscreen` 플러그인을 활성화하세요.
 
 ### 수동 설치
 
 1.  이 저장소의 [Releases](https://github.com/BeautyKim/obsidian-pretty-lockscreen) 페이지에서 최신 버전의 `main.js`, `styles.css`, `manifest.json` 파일을 다운로드합니다.
-2.  Obsidian 볼트의 `.obsidian/plugins/` 디렉토리 안에 `pretty-lockscreen`이라는 새 폴더를 만듭니다.
+2.  볼트의 `.obsidian/plugins/` 디렉토리 안에 `pretty-lockscreen`이라는 새 폴더를 만듭니다.
 3.  다운로드한 파일들을 `pretty-lockscreen` 폴더 안에 붙여넣습니다.
-4.  Obsidian 설정에서 플러그인을 활성화합니다.
+4.  설정에서 플러그인을 활성화합니다.
 
 ---
 ## 🚀 사용 방법
@@ -40,7 +40,7 @@
 
 * **비밀번호 설정**: 잠금 해제에 사용할 비밀번호를 설정합니다. (필수)
 * **잠금 대기 시간(초)**: 마지막 활동 후 잠금 화면이 나타나기까지의 대기 시간을 초 단위로 설정합니다.
-* **배경 이미지 URL**: 잠금 화면의 배경으로 사용할 이미지의 웹 URL 또는 Obsidian 볼트 내의 로컬 파일 경로(예: `attachments/background.jpg`)를 입력합니다.
+* **배경 이미지 URL**: 잠금 화면의 배경으로 사용할 이미지의 웹 URL 또는 볼트 내의 로컬 파일 경로(예: `attachments/background.jpg`)를 입력합니다.
 * **배경 불투명도**: 배경 이미지 위에 덮이는 검은색 오버레이의 불투명도를 설정합니다. (0.0 ~ 1.0, 예: 0.7)
 
 ---
