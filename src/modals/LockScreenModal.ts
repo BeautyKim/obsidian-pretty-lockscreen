@@ -1,5 +1,5 @@
 import { App, Modal } from 'obsidian';
-import MyPlugin from '../main';
+import MyPlugin from '../../main';
 
 export class LockScreenModal extends Modal {
   plugin: MyPlugin;

@@ -1,7 +1,7 @@
 import { Plugin } from 'obsidian';
 
-import { MyPluginSettings, DEFAULT_SETTINGS, SampleSettingTab } from './settings/SettingTab';
-import { LockScreenModal } from './modals/LockScreenModal';
+import { MyPluginSettings, DEFAULT_SETTINGS, SampleSettingTab } from './src/settings/SettingTab';
+import { LockScreenModal } from './src/modals/LockScreenModal';
 
 declare module 'obsidian' {
   interface Modal {
