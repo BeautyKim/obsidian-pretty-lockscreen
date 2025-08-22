@@ -1,7 +1,6 @@
 import esbuild from 'esbuild';
 import process from 'process';
 import builtins from 'builtin-modules';
-import fs from 'fs';
 
 const banner =
 	`/*
@@ -12,16 +11,13 @@ if you want to view the source, please visit the github repository of this plugi
 
 const prod = (process.argv[2] === 'production');
 
-const outdir = 'dist';
-if (!fs.existsSync(outdir)) fs.mkdirSync(outdir);
-fs.copyFileSync('manifest.json', `${outdir}/manifest.json`);
-
 const context = await esbuild.context({
   banner: {
     js: banner,
   },
-  entryPoints: ['main.ts', 'styles.css'],
+  entryPoints: ['main.ts'],
   bundle: true,
+	outfile: 'main.js',
   external: [
     'obsidian',
     'electron',
@@ -42,7 +38,6 @@ const context = await esbuild.context({
   logLevel: 'info',
   sourcemap: prod ? false : 'inline',
   treeShaking: true,
-  outdir: outdir,
 });
 
 if (prod) {
